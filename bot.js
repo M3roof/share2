@@ -22,7 +22,7 @@ var channel = "524038276999413775";//ايدي الروم
 
 
     client.on('message', message => {
-        var prefix = "1";
+        var prefix = "2";
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
